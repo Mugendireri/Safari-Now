@@ -1,0 +1,269 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Logo styles */
+.logo {
+    font-size: 2em; /* Adjust the font size of the logo */
+}
+
+.safari {
+    color: #ff6600; /* Set the color for the word "Safari" */
+    font-weight: bold; /* Make the word "Safari" bold */
+    font-size: 24px;
+    font-style: italic;
+}
+.active{
+    color: #ff6600 !important;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Intro section styles */
+.intro {
+    margin-bottom: 30px;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    flex: 1;
+    text-align: left;
+}
+
+.intro-text h2 {
+    font-size: 2em;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.intro-image {
+    flex: 1;
+    text-align: right;
+}
+
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Highlights section styles */
+.highlights {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.highlight-item {
+    flex: 1;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.highlight-image,
+.highlight-text {
+    flex: 1;
+}
+
+.highlight-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.highlight-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.highlight-text p {
+    color: #666;
+}
+
+footer {
+    background-color:#ff6600;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About Us page specific styles */
+.about-content {
+    margin-bottom: 20px;
+    
+}
+.text{
+    text-align: center;
+}
+/*/* First About Us Section */
+.first-about-section {
+    background-color: #ff6600; /* Background color matching #ff6600 */
+    color: #fff; /* Text color */
+}
+
+/* Second About Us Section */
+.second-about-section {
+    background-color: #ff9933; /* Different shade or complementary color */
+    color: #fff; /* Text color */
+}
+
+/* Third About Us Section */
+.third-about-section {
+    background-color: #ffcc66; /* Different shade or complementary color */
+    color: #333; /* Text color */
+}
+
+ Destinations page specific styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    width: 50%;
+    height: 50%;
+}
+
+.testimonials {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial .author {
+    font-weight: bold;
+}
+.pricing-packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.destination {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.5);
+    width: 300px;
+}
+
+.destination-img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.destination-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.destination-info {
+    padding: 20px 0;
+}
+
+.destination h3 {
+    margin-bottom: 10px;
+}
+
+.destination p {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+        width: 50%;
+        margin: 0 auto; 
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004eb3;
+}
